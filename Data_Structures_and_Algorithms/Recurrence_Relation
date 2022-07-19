@@ -1,22 +1,22 @@
-<h2>Data Structures and Algorithms Assignment 7</h2>
+Data Structures and Algorithms Assignment 7
 
 
-<b>1. What is the distinction between a list and an array?</b>
+1. What is the distinction between a list and an array?
 
 The main difference between the list and an array is that lists consist of multiple elements with multiple types of data types.
 Whereas with respect to array ,it has multiple elements but with the same datatype alone.
 
 List cannot directly handle arithmetic operations whereas array can handle arithmetic operations
 
-<b>2. What are the qualities of a binary tree?</b>
+2. What are the qualities of a binary tree?
 
 The binary tree consists of a number of nodes at each level(h) from top to bottom in which the data can be stored.This is very helpful to create a split up tree and for arrangement of data.Each node has up to two direct child nodes .There is exactly one node called the root node of the tree which is the starting node.The minimum possible height or levels is equal to Log with base 2 of (n+1)
 
-<b>3. What is the best way to combine two balanced binary search trees?</b>
+3. What is the best way to combine two balanced binary search trees?
 
 The best way of combining two balanced binary search trees is through the merge procedure.The merge procedure is about combining two trees. As it is given as two balanced binary search trees → On way of combining it through the concept of Merged Binary Search Tree
 
-<b>4. How would you describe Heap in detail?</b>
+4. How would you describe Heap in detail?
 
 A heap can be told as a specialised tree that satisfies the heap property. I,e it is a special case of balanced binary tree data structure where the root - node key is compared with its children and arranged accordingly.
 For example : if B is a child node of A then , key(A)>=key(B)
@@ -24,12 +24,12 @@ From this we can tell that the element with the greatest key is always in the ro
 
 There are two types of Heaps which are : Max-Heap and Min-Heap.
 
-<b>5. In terms of data structure, what is a HashMap?</b>
+5. In terms of data structure, what is a HashMap?
 
 A hashmap is a data structure that is able to map certain key to certain values. It is like linking the key to given value
 For example in facebook we are linking the username to a friends list for more process.Also it is very efficient data structure that is used to store data whose time complexity is O(1) → Constant time complexity.
 
-<b>6. How do you explain the complexities of time and space?</b>
+6. How do you explain the complexities of time and space?
 
 Time complexity is about calculating the time taken by an algorithm to complete the process.
 
@@ -49,7 +49,7 @@ Big O → For calculating Worst Case
 Omega → For calculating Best Case
 Theta → For calculating Average Case
 
-<b>7. How do you recursively sort a stack?</b>
+7. How do you recursively sort a stack?
 
 We can use a reversed stack using recursion.Here the concept is to hold all the values in the function call stack until it becomes empty.Then what we do is we insert all the items one by one in sorted order.
 
